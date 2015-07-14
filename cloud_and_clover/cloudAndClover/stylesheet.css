@@ -1,5 +1,7 @@
 html {
-    font-family: "Lato";
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    color: rgb(114, 126, 125);
     box-sizing: border-box;
 }
 
@@ -29,43 +31,61 @@ form {
     border-radius: 30px;
     box-shadow: -2px 2px 3px lightgray;
     margin: 0 auto;
+    margin-top: 20px;
     margin-bottom: 20px;
     color: gray;
 }
 
 form p {
-    padding-top: 20px;
-    margin-bottom: 0px;
+    padding-top: 40px;
     margin-left: 38px;
 }
 
 .form_fields_long input {
-    height: 35px;
+    height: 40px;
     width: 820px;
+    /*margin-top: 5px;*/
     margin-left: 35px;
+    font-size: 12pt;
 }
 
 .form_fields_short input {
-    height: 35px;
+    height: 40px;
     width: 400px;
     margin-left: 35px;
+    font-size: 12pt;
+    border: 1px solid black;
+    background-color: white;
+    position: relative;
+    bottom: 11px;
+    text-align: right;
+    /*opacity: 0;*/
+    z-index: 2;
 }
 
 .form_fields_short button {
     background-color: #FDD4C2;
     border: 1px solid lightgray;
+    color: rgb(114, 126, 125);
+    font-size: 16pt;
+    font-weight: 700;
     height: 41px;
     width: 200px;
     margin-left: -4px;
+    cursor: pointer;
 }
 
 form > button {
     background-color: #FDD4C2;
     border: 1px solid lightgray;
+    color: rgb(114, 126, 125);
+    font-size: 16pt;
+    font-weight: 700;
     height: 41px;
     width: 200px;
-    margin-top: 36px;
+    margin-top: 20px;
     margin-left: 35px;
+    cursor: pointer;
     position: absolute;
 }
 
