@@ -1,3 +1,14 @@
+html {
+    font-family: "Lato";
+    box-sizing: border-box;
+}
+
+*, *:before *:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
 header {
     display: flex;
     justify-content: center;
@@ -6,8 +17,9 @@ header {
 }
 
 .text {
-    display: flex;
-    justify-content: center;
+    margin-left: 150px;
+    text-align: left;
+    font-size: 16pt;
 }
 
 form {
@@ -21,7 +33,7 @@ form {
     color: gray;
 }
 
-h3 {
+form p {
     padding-top: 20px;
     margin-bottom: 0px;
     margin-left: 38px;
