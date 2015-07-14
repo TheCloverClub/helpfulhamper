@@ -30,7 +30,7 @@
 
 2.Fonts: 
 
-  a. Lato Normal 400 is our primary font and should be used for helpful hamper 3 step instructions and filed titles
+  a. Lato Normal 400 is our primary font and should be used for helpful hamper 3 step instructions and field titles
   
   b. Lato Bold 700 can be used for fonts on buttons such as the browse and submit buttons on helpful hamper
   
