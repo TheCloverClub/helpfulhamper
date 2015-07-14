@@ -1,8 +1,8 @@
 # helpfulhamper
 
-a.Palettes: 
+1.Palettes: 
 
-  i.Primary color palette 
+  a.Primary color palette 
 
     1.Green - HEX 67cec1 / RGB 103 206 193 
 
@@ -12,7 +12,7 @@ a.Palettes:
 
     4.Black - HEX 000000 / RGB 
 
-  i.Secondary color palette
+  b.Secondary color palette
 
     1.Grey - HEX 727e7d / RGB 114, 126, 125 
 
@@ -20,7 +20,7 @@ a.Palettes:
 
     3.Curry - PHEX dbc847 / RGB 219, 200, 71
 
-  i.Accent Colors (pick 1 or 2 of these)
+  c.Accent Colors (pick 1 or 2 of these)
 
     1.Red (Maybe an accent)  HEX fd2121
 
@@ -28,4 +28,12 @@ a.Palettes:
 
     3.Peach (Maybe an accent) Hex ffd3c4
 
+2.Fonts: 
 
+  a. Lato Normal 400 is our primary font and should be used for helpful hamper 3 step instructions
+  b. Lato Bold 700 can be used for fonts on buttons such as the browse and submit buttons on helpful hamper
+
+
+  
+
+  
