@@ -54,7 +54,7 @@ form p {
     width: 400px;
     margin-left: 35px;
     font-size: 12pt;
-    border: 1px solid black;
+    border: 1px solid lightgray;
     background-color: white;
     position: relative;
     bottom: 11px;
@@ -92,4 +92,5 @@ form > button {
 footer {
     display: flex;
     justify-content: center;
+    margin-bottom: 20px;
 }

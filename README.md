@@ -34,7 +34,7 @@
   
   b. Lato Bold 700 can be used for fonts on buttons such as the browse and submit buttons on helpful hamper
   
-  c. "make your hamper a helpfu hanmper, it's easy as 1-2-3" will be a jpg or png not text
+  c. "make your hamper a helpful hamper, it's easy as 1-2-3" will be a .jpg or .png, not text
 
 
   
