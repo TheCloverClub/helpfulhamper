@@ -5,7 +5,7 @@
     <title>Helpful Hamper</title>
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="stylesheet.css">
-    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:400' rel='stylesheet' type='text/css'>
 </head>
 <body>
     <header>
@@ -20,7 +20,8 @@
         <p>3. Once we receive your t-shirts, your coupon will be activated so you</p>
         <p>can start shopping!</p> 
     </div>
-    <form action="processForm.php" method="POST" enctype="multipart/form-data">
+    <!-- <form action="processForm.php" method="POST" enctype="multipart/form-data"> -->
+    <form action="processForm.php" method="POST">
         <div class="form_fields_long">
             <label for="first_name">first name</label>
             <input type="text" name="first_name" placeholder="first name">
@@ -32,9 +33,9 @@
         <div class="form_fields_short">
             <label for="uploaded_file">select a file to upload</label>
             <input type="file" name="uploaded_file">
-            <!-- <button type="submit">browse</button> -->
+            <button type="submit">browse</button>
         </div>        
-        <input type="submit" value="Submit" name="submit">
+        <input type="submit" value="submit" name="submit">
     </form>
     <footer>
         <img src="images/WebArt_HelpfulHamper5.jpg" alt="">
