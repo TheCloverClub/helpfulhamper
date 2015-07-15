@@ -20,21 +20,21 @@
         <p>3. Once we receive your t-shirts, your coupon will be activated so you</p>
         <p>can start shopping!</p> 
     </div>
-    <form action="#" method="POST">
+    <form action="processForm.php" method="POST" enctype="multipart/form-data">
         <div class="form_fields_long">
-            <p>first name</p>
+            <label for="first_name">first name</label>
             <input type="text" name="first_name" placeholder="first name">
-            <p>last name</p>
+            <label for="last_name">last name</label>
             <input type="text" name="last_name" placeholder="last name">
-            <p>email address</p>
+            <label for="email">email address</label>
             <input type="text" name="email" placeholder="email">
         </div>
         <div class="form_fields_short">
-            <p>select a file to upload</p>
-            <input type="file" name="uploadFile">
-            <button type="submit">browse</button>
+            <label for="uploaded_file">select a file to upload</label>
+            <input type="file" name="uploaded_file">
+            <!-- <button type="submit">browse</button> -->
         </div>        
-        <button type="submit">submit</button>
+        <input type="submit" value="Submit" name="submit">
     </form>
     <footer>
         <img src="images/WebArt_HelpfulHamper5.jpg" alt="">
